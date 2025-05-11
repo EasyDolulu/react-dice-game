@@ -123,7 +123,7 @@ Error generating stack: `+o.message+`
     font-size: 24px;
     font-weight: 500px;
   }
-`,ym=({roleDice:e,currentDice:t})=>F.jsxs(gm,{children:[F.jsx("div",{className:"dice",onClick:e,children:F.jsx("img",{src:`/images/dice/dice_${t}.png`,alt:"dice 1"})}),F.jsx("p",{children:"Click on Dice to roll"})]}),gm=Pt.div`
+`,ym=({roleDice:e,currentDice:t})=>F.jsxs(gm,{children:[F.jsx("div",{className:"dice",onClick:e,children:F.jsx("img",{src:`/react-dice-game/images/dice/dice_${t}.png`,alt:`dice ${t}`})}),F.jsx("p",{children:"Click on Dice to roll"})]}),gm=Pt.div`
   margin-top: 48px;
   display: flex;
   flex-direction: column;
